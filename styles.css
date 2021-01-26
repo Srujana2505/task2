@@ -1,0 +1,297 @@
+body{
+    background:  #1D1E20;
+}
+.tom{
+    position: relative;
+    border-radius: 170px;
+    left:120px;
+    bottom: 40px;
+}
+.name{
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 25px;
+}
+.intro{
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 20px;
+}
+.para{
+    color: whitesmoke;
+    font-family: Verdana;
+    font-size: 15px;
+}
+#facebook{
+    position:absolute;
+    left:20px;
+    color: #13F7D2;
+}
+.fcircle{
+    position:absolute;
+    left:5px;
+    top:560px;
+    border-color:#13F7D2;
+    border-style: solid;
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+}
+#twitter{
+    position:absolute;
+    color:  #13F7D2;
+    left:100px;
+}
+.tcircle{
+    position:absolute;
+    left:90px;
+    top:560px;
+    border-color:#13F7D2;
+    border-style: solid;
+    width:50px;
+    height:50px;
+    border-radius:50px;
+}
+#github{
+    position:absolute;
+    color:  #13F7D2;
+    left:200px;
+}
+.gcircle{
+    position:absolute;
+    left:185px;
+    top:560px;
+    border-color:#13F7D2;
+    border-style: solid;
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+}
+#instagram{
+    position:absolute;
+    color:  #13F7D2;
+    left:300px;
+}
+.icircle{
+    position:absolute;
+    left:285px;
+    top:560px;
+    border-color:#13F7D2;
+    border-style: solid;
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+}
+#mail{
+    position:absolute;
+    color:  #13F7D2;
+    left:400px;
+}
+.mcircle{
+    position:absolute;
+    left:388px;
+    top:560px;
+    border-color:#13F7D2;
+    border-style: solid;
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+}
+.copyright{
+    position: absolute;
+    color:whitesmoke;
+    font-family: Verdana;
+    font-size: 15px;
+    top: 620px;  
+}
+
+.topnav a{
+  color: #13F7D2 ; 
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  padding:5px ;
+  font-family: Verdana;
+}
+.topnav a:hover {
+    color: #13F7D2; 
+   
+  }
+
+.green{
+    width:100px;
+    height:100px;
+    background-color: #13F7D2 ;
+    position: absolute;
+    border-radius: 50px;
+    top:230px;
+    left:100px;
+    z-index: 1;
+    opacity: 0.5;
+}
+.firstx{
+    font-family: Verdana;
+    font-size: 35px;
+    color: whitesmoke;
+    position: absolute;
+    left:310px;
+    top:90px;
+}
+.secondx{
+    font-family: Verdana;
+    font-size: 35px;
+    color: whitesmoke;
+    position: absolute;
+    left:210px;
+    top:273px;
+}
+@media screen and (max-width: 861px){
+    #facebook{
+        position:absolute;
+        top:575px;
+    }
+    #twitter{
+        position:absolute;
+        top:575px;
+    }
+    #github{
+        position:absolute;
+        top:575px;
+    }
+    #instagram{
+        position:absolute;
+        top:575px;
+    }
+    #mail{
+        position:absolute;
+        top:575px;
+    }
+    .topnav{
+        overflow: hidden;
+    }
+    .topnav #myLinks{
+        position:absolute;
+        right:0px;
+        display:none;
+        top:30px;
+    }
+    #menu{
+        position: absolute;
+        color: #13F7D2;
+        right:0px;
+        top:0px;
+    }
+}
+@media screen and (min-width: 862px){
+    .name{
+        color: whitesmoke;
+        font-family: Verdana;
+        font-size: 25px;
+        position: absolute;
+        left:400px;
+        top:100px;
+    }
+    .intro{
+        color: whitesmoke;
+        font-family: Verdana;
+        font-size: 20px;
+        position: absolute;
+        left:350px;
+        top:130px;
+    }
+    .para{
+        color: whitesmoke;
+        font-family: Verdana;
+        font-size: 15px;
+        position:absolute;
+        left:350px;
+        top:200px;
+    }
+    #facebook{
+        position: absolute;
+        left:400px;
+        top:400px;
+    }
+    .fcircle{
+        position:absolute;
+        left:380px;
+        top:390px;
+    }
+    #twitter{
+        position: absolute;
+        left:500px;
+        top:400px;
+    }
+    .tcircle{
+        position:absolute;
+        left:485px;
+        top:390px;
+    }
+    #github{
+        position: absolute;
+        left:600px;
+        top:400px;
+    }
+    .gcircle{
+        position:absolute;
+        left:585px;
+        top:390px;
+    }
+    #instagram{
+        position: absolute;
+        left:700px;
+        top:400px;
+    }
+    .icircle{
+        position:absolute;
+        left:685px;
+        top:390px;
+    }
+    #mail{
+        position: absolute;
+        left:800px;
+        top:400px;
+    }
+    .mcircle{
+        position:absolute;
+        left:790px;
+        top:390px;
+    }
+    .copyright{
+        text-align: center;
+        position: absolute;
+        left:500px;
+        top:500px;
+    }
+    #menu{
+        display:none;
+        
+    }
+    
+    #myLinks{
+        font-size: 30px;
+        color:#13F7D2;
+        visibility: visible;
+    }
+    .contact{
+        position:absolute;
+        right:0px;
+        top:0px;
+        color: #13F7D2;
+    
+    }
+    .about{
+        position: absolute;
+        top:0px;
+        right:130px;
+    }
+        
+        
+    
+
+
+
+}
+
+  
+
